@@ -1,6 +1,6 @@
 def my_each(array) # put argument(s) here
   # code here
-  if block_given?    
+  if block_given?
     counter = 0
     while array.length > counter
       yield array[counter]
@@ -9,5 +9,5 @@ def my_each(array) # put argument(s) here
     array
   else
     puts "This block should not run!"
-  end  
+  end
 end
